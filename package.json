@@ -1,0 +1,27 @@
+{
+  "name": "ndovhaltes-a11yjson",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jurb/ndovhaltes-a11yjson.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jurb/ndovhaltes-a11yjson/issues"
+  },
+  "homepage": "https://github.com/jurb/ndovhaltes-a11yjson#readme",
+  "dependencies": {
+    "@sozialhelden/a11yjson": "^10.0.0",
+    "d3": "^6.1.1",
+    "gunzip-file": "^0.1.1",
+    "website-scraper": "^4.2.3",
+    "website-scraper-existing-directory": "^0.1.0",
+    "xml2js": "^0.4.23"
+  }
+}
