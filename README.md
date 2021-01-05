@@ -9,3 +9,6 @@ This script aims to
 For more information, see the observable notebook at https://observablehq.com/@jurb/haltebestand-ndov-loket-xml-a11yjson
 
 See https://github.com/BISONNL/CHB for the xsd of the xml.
+
+Usage:
+`node parseLatestCHB.js`
