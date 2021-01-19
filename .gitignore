@@ -1,4 +1,2 @@
 scrapeNDOV/
-*.xml
-*.xml.gz
-ExportCHBLatest-amsterdam.json
+ExportCHB*
