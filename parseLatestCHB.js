@@ -168,7 +168,7 @@ const parseCHBXMLtoJSON = () =>
           // map over each quay
           // ...quay, // destructure whole quay object
           quaycode: quay.quaycode,
-          quayname: quay.quaynamedata.quayname, // also add the stopplace information,
+          quayname: quay.quaynamedata.quayname,
           quaystatus: quay.quaystatusdata.quaystatus,
           transportmode:
             quay.quaytransportmodes.transportmodedata.transportmode,
