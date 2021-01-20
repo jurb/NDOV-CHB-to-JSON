@@ -172,16 +172,15 @@ const parseCHBXMLtoJSON = () =>
           quaystatus: quay.quaystatusdata.quaystatus,
           transportmode:
             quay.quaytransportmodes.transportmodedata.transportmode,
-          lat: quay.geo.lat,
-          lon: quay.geo.lon,
+          geo: quay.geo,
+          compassdirection: quay.quaybearing.compassdirection,
+          direction: quay.direction,
+          directionfull: quay.directionfull,
           visuallyaccessible:
             quay.quayvisuallyaccessible.visuallyaccessible === "Y",
           disabledaccessible:
             quay.quaydisabledaccessible.disabledaccessible === "Y",
-          compassdirection: quay.quaybearing.compassdirection,
           ...quay.quayaccessibilityadaptions,
-          direction: quay.direction,
-          directionfull: quay.directionfull,
         })
       );
 
